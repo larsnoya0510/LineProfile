@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Line Profile</string>
+    <string name="settings">設定</string>
+    <string name="personalprofile">個人檔案</string>
+    <string name="username">姓名</string>
+    <string name="unsetting">尚未設定</string>
+    <string name="userstate">狀態消息</string>
+    <string name="phonenumber">電話號碼</string>
+    <string name="autopostnewpic">自動張貼變更後的個人圖片</string>
+    <string name="autopostnewpictoposts">變更完成後，新的個人圖片將自動張貼至貼文串。</string>
+    <string name="userid">ID</string>
+    <string name="allowaddfriendbyid">允許利用ID加入好友</string>
+    <string name="otherusercanaddfriendtoyoubyidsearch">其他用戶可透過ID搜尋將您加入好友</string>
+    <string name="qrcode">行動條碼</string>
+    <string name="userbirthday">生日</string>
+    <string name="save">SAVE</string>
+    <string name="myinfo">我的資訊</string>
+</resources>
