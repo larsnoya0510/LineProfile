@@ -17,7 +17,7 @@ class Activity_DisplayName : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_display_name)
-        et_InputName.setText(intent.getStringExtra("Name"))
+
         var toolbar =  findViewById(R.id.toolbar_this) as Toolbar
         setSupportActionBar(toolbar)
         this.getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
@@ -37,6 +37,7 @@ class Activity_DisplayName : AppCompatActivity() {
                 //tv_CountWords.text = count.toString() + "/20"
             }
         })
+        et_InputName.setText(intent.getStringExtra("Name"))
         Btn_Save.setOnClickListener {
             intent.putExtra("Name", et_InputName.text.toString())
             setResult(Global.RESULT_NAME,intent)
